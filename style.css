@@ -252,4 +252,22 @@ footer {
   font-size: 20px;
   text-transform:capitalize;
 }
+.credit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.rights {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.rights a{
+  text-decoration: none;
+  color: white;
+  padding-top: 5px;
+}
 /* end credit  */
